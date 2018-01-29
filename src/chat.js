@@ -1,9 +1,9 @@
-import React, { Component } from 'react';
-import { connect } from 'react-redux';
-import { bindActionCreators } from 'redux';
-import Messages from './messages';
-import Users from './users';
-import { addNewUser, newMessage } from './actions';
+import React, { Component } from 'react'
+import { connect } from 'react-redux'
+import { bindActionCreators } from 'redux'
+import Messages from './messages'
+import Users from './users'
+import { addNewUser, newMessage } from './actions'
 
 class Chat extends Component {
     render() {
